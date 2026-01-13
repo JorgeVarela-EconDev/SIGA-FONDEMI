@@ -61,4 +61,4 @@ Desarrollado por **JORGE VARELA**
 
 Este proyecto demuestra la intersección entre la **Ingeniería de Software** y la **Eficiencia Económica**, aplicando tecnología para resolver problemas estructurales de gestión.
 
-linkedin.com/in/jorgevarela06 | https://github.com/JorgeVarela-EconDev
+https://www.linkedin.com/in/jorgevarela06/ | https://github.com/JorgeVarela-EconDev
