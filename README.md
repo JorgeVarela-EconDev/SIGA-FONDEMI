@@ -20,7 +20,10 @@
 ---
 
 ## 📸 Tour Visual del Sistema
-*(Arrastra aquí tus capturas de pantalla para mostrar la interfaz)*
+<img width="915" height="948" alt="Captura de pantalla 2026-01-12 230615" src="https://github.com/user-attachments/assets/9631e51c-83d2-4960-9fd7-7907b41bb593" />
+<img width="860" height="844" alt="Captura de pantalla 2026-01-12 230542" src="https://github.com/user-attachments/assets/a899e034-493a-4fb9-a98f-0e321111a3ec" />
+<img width="893" height="954" alt="Captura de pantalla 2026-01-12 231806" src="https://github.com/user-attachments/assets/b681d521-ae9a-4f46-8f03-4de698c48a39" />
+<img width="919" height="950" alt="Captura de pantalla 2026-01-12 230647" src="https://github.com/user-attachments/assets/64bfb14d-a991-44a7-8f1a-fbd8b69859c1" />
 
 | **Seguridad y Acceso** | **Panel de Gestión (Dashboard)** |
 |:---:|:---:|
