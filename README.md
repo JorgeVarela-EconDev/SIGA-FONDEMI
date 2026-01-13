@@ -20,10 +20,10 @@
 ---
 
 ## 📸 Tour Visual del Sistema
-<img width="915" height="948" alt="Captura de pantalla 2026-01-12 230615" src="https://github.com/user-attachments/assets/9631e51c-83d2-4960-9fd7-7907b41bb593" />
-<img width="860" height="844" alt="Captura de pantalla 2026-01-12 230542" src="https://github.com/user-attachments/assets/a899e034-493a-4fb9-a98f-0e321111a3ec" />
-<img width="893" height="954" alt="Captura de pantalla 2026-01-12 231806" src="https://github.com/user-attachments/assets/b681d521-ae9a-4f46-8f03-4de698c48a39" />
-<img width="919" height="950" alt="Captura de pantalla 2026-01-12 230647" src="https://github.com/user-attachments/assets/64bfb14d-a991-44a7-8f1a-fbd8b69859c1" />
+<img width="893" height="954" alt="Captura de pantalla 2026-01-12 231806" src="https://github.com/user-attachments/assets/3b01ade5-25ca-4466-8a66-144adca98784" />
+<img width="919" height="950" alt="Captura de pantalla 2026-01-12 230647" src="https://github.com/user-attachments/assets/d9d403ff-9702-4c4e-83f5-2e87d88a66fa" />
+<img width="915" height="948" alt="Captura de pantalla 2026-01-12 230615" src="https://github.com/user-attachments/assets/8df34640-fad3-49a2-af92-dc586792cc96" />
+<img width="860" height="844" alt="Captura de pantalla 2026-01-12 230542" src="https://github.com/user-attachments/assets/6f88e28c-0fb9-4dff-8500-b051a2b37491" />
 
 | **Seguridad y Acceso** | **Panel de Gestión (Dashboard)** |
 |:---:|:---:|
