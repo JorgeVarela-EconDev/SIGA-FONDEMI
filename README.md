@@ -26,7 +26,6 @@
 
 
 | **Seguridad y Acceso** |
-|:---:|:---:|
 | <img width="860" height="844" alt="Captura de pantalla 2026-01-12 230542" src="https://github.com/user-attachments/assets/360d6acb-81cd-49df-a9e1-2f6077584b1f" />
 
 ---
