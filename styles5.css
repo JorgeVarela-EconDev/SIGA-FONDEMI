@@ -1,0 +1,256 @@
+
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #0056b3;
+    --background-color: #f8f9fa;
+    --text-color: #2c3e50;
+    --hover-color: #e9ecef;
+    --border-radius: 8px;
+    --box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    --table-header-bg: #f1f5f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+
+header {
+    background: var(--primary-color);
+    padding: 1rem 0;
+    box-shadow: var(--box-shadow);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.menu.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, var(--primary-color), #00BFFF);
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--border-radius);
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--primary-color);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+thead {
+    background-color: var(--table-header-bg);
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+    background-color: var(--hover-color);
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+@media (max-width: 768px) {
+    .menu-icono {
+        display: block;
+    }
+
+    #menu:checked ~ .navbar {
+        display: flex;
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--primary-color);
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        margin: 1rem -1.5rem;
+        padding: 0 1.5rem;
+    }
+
+    table {
+        min-width: 600px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Animaciones */
+.scroll-animation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+}
+
+.scroll-animation.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Temas */
+body.dark {
+    --background: #1a1a1a;
+    --text: #ffffff;
+    --glass: rgba(25, 25, 25, 0.95);
+}
+
+.theme-switcher {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.theme-switcher button {
+    background: none;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.help-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--primary);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.help-chat:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,195 @@
+:root {
+    --primary: #007BFF;
+    --secondary: #0056b3;
+    --accent: #00BFFF;
+    --background: #f9f9f9;
+    --text: #333;
+    --input-bg: #ffffff;
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    --border-radius: 16px;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--background);
+    padding: 1rem;
+}
+
+.container {
+    background: var(--input-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 500px;
+    padding: 2.5rem;
+}
+
+.form-content h1 {
+    color: var(--primary);
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 0.5rem;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.toggle-buttons button {
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    background: transparent;
+    color: var(--text);
+}
+
+.toggle-buttons button.active {
+    background: var(--primary);
+    color: white;
+}
+
+.toggle-buttons button:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 1rem 1rem 1rem 2.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.input-field input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.btn-field {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-field button {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    background: var(--primary);
+    color: white;
+}
+
+.btn-field button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.input-group p {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--text);
+}
+
+.input-group a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.input-group a:hover {
+    text-decoration: underline;
+}
+
+.feedback {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    z-index: 1000;
+    box-shadow: var(--shadow);
+    animation: slideIn 0.3s ease-out;
+}
+
+.feedback.success { background: #28a745; }
+.feedback.error { background: #dc3545; }
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+    }
+    
+    .form-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .btn-field {
+        flex-direction: column;
+    }
+
+    .toggle-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .toggle-buttons button {
+        width: 100%;
+    }
+}
