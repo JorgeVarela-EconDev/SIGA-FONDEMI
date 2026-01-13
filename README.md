@@ -56,9 +56,9 @@ Este repositorio contiene el código fuente completo para el despliegue del sist
 
 ## 👨‍💻 Autor y Contacto
 
-Desarrollado por **[TU NOMBRE AQUÍ]**
+Desarrollado por **JORGE VARELA**
 *Estudiante de Economía (UCV) & TSU en Informática*
 
 Este proyecto demuestra la intersección entre la **Ingeniería de Software** y la **Eficiencia Económica**, aplicando tecnología para resolver problemas estructurales de gestión.
 
-[Link a mi LinkedIn] | [Link a mi Portafolio]
+linkedin.com/in/jorgevarela06 | https://github.com/JorgeVarela-EconDev
