@@ -20,16 +20,14 @@
 ---
 
 ## 📸 Tour Visual del Sistema
+<img width="915" height="948" alt="Captura de pantalla 2026-01-12 230615" src="https://github.com/user-attachments/assets/25b09112-4866-41a7-a989-760ec524102a" />
 <img width="919" height="950" alt="Captura de pantalla 2026-01-12 230647" src="https://github.com/user-attachments/assets/70f79694-2301-49de-85b6-42861373a1a6" />
 <img width="893" height="954" alt="Captura de pantalla 2026-01-12 231806" src="https://github.com/user-attachments/assets/34f8ff65-887f-4f80-82d1-51b101344e99" />
 
 
-| **Seguridad y Acceso** | **Panel de Gestión (Dashboard)** |
+| **Seguridad y Acceso** |
 |:---:|:---:|
-| <img width="860" height="844" alt="Captura de pantalla 2026-01-12 230542" src="https://github.com/user-attachments/assets/360d6acb-81cd-49df-a9e1-2f6077584b1f" /><img width="915" height="948" alt="Captura de pantalla 2026-01-12 230615" src="https://github.com/user-attachments/assets/25b09112-4866-41a7-a989-760ec524102a" />
-### 📊 Inteligencia de Negocios
-El sistema integra módulos de análisis para la toma de decisiones:
-*(Arrastra aquí la FOTO DE TU GRÁFICO O REPORTE PDF)*
+| <img width="860" height="844" alt="Captura de pantalla 2026-01-12 230542" src="https://github.com/user-attachments/assets/360d6acb-81cd-49df-a9e1-2f6077584b1f" />
 
 ---
 
