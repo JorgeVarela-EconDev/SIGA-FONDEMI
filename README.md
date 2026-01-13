@@ -48,10 +48,17 @@ Para garantizar la sostenibilidad del proyecto sin depender de licencias costosa
 La arquitectura del proyecto se mantiene **plana (Flat Structure)** deliberadamente para facilitar la portabilidad entre servidores sin necesidad de reconfigurar rutas de activos.
 
 * `📂 /database` → **Persistencia:** Scripts SQL para la estructura y datos iniciales.
-* `📂 /dompdf` y `/JqPlot` → **Librerías:** Dependencias externas aisladas.
+* `📂 /JqPlot` → **Librerías:** Dependencias externas aisladas.
 * `📄 Raíz (Root)` → **Núcleo Monolítico:** Contiene la lógica de negocio (PHP), las vistas (HTML) y los activos de interfaz (CSS/JS/Img) en un mismo nivel para garantizar un despliegue **"Drag & Drop"** sin errores de enrutamiento.
 ---
+## 🛠 Instalación
+1. Importar el archivo `/database/tu_archivo.sql` en MySQL.
+2. Configurar las credenciales en `conexion_be.php`.
+3. **Nota sobre Librerías:** Debido a políticas de peso en GitHub, la librería **DomPDF** no está incluida. 
+   - Descargar DomPDF y colocar la carpeta en: `vendor/dompdf` (o en la raíz, según tu estructura).
+4. ¡Listo para usar!
 
+   
 ## 👨‍💻 Autor y Contacto
 
 Desarrollado por **JORGE VARELA**
