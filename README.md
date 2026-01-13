@@ -45,13 +45,11 @@ Para garantizar la sostenibilidad del proyecto sin depender de licencias costosa
 
 ## 📂 Estructura del Repositorio
 
-Este repositorio contiene el código fuente completo para el despliegue del sistema:
+La arquitectura del proyecto se mantiene **plana (Flat Structure)** deliberadamente para facilitar la portabilidad entre servidores sin necesidad de reconfigurar rutas de activos.
 
-* `📂 /database` → **Script SQL:** Estructura de tablas y datos semilla.
-* `📂 /assets` → **Frontend:** Hojas de estilo, scripts interactivos y recursos gráficos.
-* `📂 /vendor` → **Librerías:** Dependencias externas para gráficos y PDFs.
-* `📄 Raíz` → **Lógica de Negocio:** Controladores y Vistas en PHP.
-
+* `📂 /database` → **Persistencia:** Scripts SQL para la estructura y datos iniciales.
+* `📂 /dompdf` y `/JqPlot` → **Librerías:** Dependencias externas aisladas.
+* `📄 Raíz (Root)` → **Núcleo Monolítico:** Contiene la lógica de negocio (PHP), las vistas (HTML) y los activos de interfaz (CSS/JS/Img) en un mismo nivel para garantizar un despliegue **"Drag & Drop"** sin errores de enrutamiento.
 ---
 
 ## 👨‍💻 Autor y Contacto
